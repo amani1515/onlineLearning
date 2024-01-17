@@ -1,0 +1,215 @@
+.Header{
+    background-color: #0B1629;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    
+    color: #DFE3EE;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.headerLogo{
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+    margin-left: 15px;
+  
+    
+}
+.headerpic{
+    
+    width: 70px;
+    height: 70px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    
+}
+.searchBar{
+    padding-top: 20px;
+    width: 300px;
+    flex: 1;
+    margin-right: 20px;
+    margin-left: 150px;
+    max-width: 400px;
+}
+.SearchBArInput{
+    padding-left:20px ;
+    padding-top: 10px;
+    width: 250px;
+    padding-bottom:10px;
+    border-radius: 5px;
+}
+.headerTitle{
+  
+    width: 800px;
+    display: flex;
+    
+}
+.headerTitle ul li{
+    margin-top: 10px;
+    
+    display: flex;
+    display: inline-block;
+    width: 110px;
+    justify-content: space-between;
+    
+    
+}
+.headerTitle ul li a{
+    color: #DFE3EE;
+    transition: 0.3s;
+    padding-left: 20px;
+}
+.headerTitle ul li a:hover{
+    display: block;
+    
+    color: #eaecf1;
+    font-weight: bold;
+    color: #03e9f4;
+
+   
+
+    
+}
+.firstSubMenu{
+    padding: 12px 16px;
+   
+    position: fixed;
+    display: none;
+    padding-top: 5px;
+    min-width: 120px;
+}
+.firstSubMenu ul{
+    padding-left:2px ;
+    margin-left: 0px;
+    
+}
+.secondSubMenu{
+    display: none;
+    position: absolute;
+   margin-top: -25px;
+    padding-top: 5px;
+    min-width: 120px;
+    margin-left: 80px;
+    padding-left: 0px;
+}
+.secondSubMenu ul{
+    padding-left:60px ;
+    padding-right: 10px;
+    margin-top: 0px;padding-top: 0px;
+
+    
+}
+.secondSubMenu ul li{
+    font-size: 14px;
+}
+.headerTitle ul li:hover .firstSubMenu{
+    display: block;
+    position: fixed;
+    background: #0B1629;
+   
+
+  
+ 
+}
+.headerTitle ul li:hover .firstSubMenu ul li{
+    display: block;
+    
+    margin-top: 1px;
+}
+.firstSubMenu ul li:hover{
+    background-color: #122543;
+}
+
+.firstSubMenu ul li:hover .secondSubMenu{
+    display: block;
+    background: #0B1629;
+  
+
+    
+}
+
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+@media screen and (min-width: 1352px) {
+    
+
+
+}
+
+/*
+.ppinfo{
+    width: 200px;
+    height: 80px;
+    display: block;
+}
+.ppinfo img{
+    width:80px;
+    height:50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    display: inline-block;
+}
+.ppinfo p{
+    margin:0px;
+    display: inline;
+}
+.ppinfo a{
+    color:white;
+    display: inline-block;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+*/
+.ppinfo{
+    width: 200px;
+    height: 80px;
+    display: block;
+    
+}
+.ppimage{
+
+    width:80px;
+    display: inline-block;
+    
+}
+.ppimage img{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.nameAndLink{
+    margin-top: 0px;
+    width: 100px;
+    height: 58px;
+    display: inline-block;
+    
+}
+.nameAndLink p{
+    padding-top: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+.nameAndLink a{
+    color:white;
+    margin-bottom: 10px;
+    margin-top: 5px;    
+}
+
+.about :hover{
+    color: #03e9f4;
+    font-size: 14px;
+}

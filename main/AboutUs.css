@@ -1,0 +1,48 @@
+.headerbar{
+    width: 450px;
+    height: 500px;
+    margin-top: 6%;
+    margin-left: 2%;
+    margin-bottom: 300px;
+    
+    display: inline-block;
+    box-shadow:  0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.Photo{
+    width: 450px;
+    height: 200px;
+    
+    display: flex;
+    flex-direction: row;
+    margin-right: 0px;
+    
+}
+.imageofMe{
+    width: 200px;
+    height: 200px;
+    
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 5px;
+    
+}
+.name{
+    
+    margin-top: 60px;
+    margin-left: 5px;
+}
+.detail{
+    height: 290px;
+    width: 400px;
+    font-style: none;
+}
+.detail a{
+    font-style: none;
+    margin-left: 30px;
+    text-decoration-style: none;
+}
+.detail p{
+    text-align: end;
+    margin-top: 70px;
+}

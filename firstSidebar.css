@@ -1,0 +1,20 @@
+.sidebar0{
+    left: 0;
+    width: 200px;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background: #f1f1f1 ;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    
+}
+.sidebar0 ul li:hover{
+    background-color: #b7bac3;
+
+}
+.sidebar0 ul li{
+    padding-left: 15px;
+}
+.sidebar0 ul{
+    padding-left: 20px
+}

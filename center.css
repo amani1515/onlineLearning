@@ -1,0 +1,49 @@
+body{
+    background: #fefefe;
+}
+.center{
+    margin-left: 210px;
+    margin-right: 200px;
+    
+
+}
+.title1ts{
+    font-weight: bolder;
+    margin-left: 300px;
+    color: rgba(129, 29, 29, 0.884);
+
+}
+.pharagraph{
+    line-height: 1.5;
+    margin-left: 10px;
+}
+.Code-box{
+    border: 1px;
+    border-style: double;
+    border-color: rgb(97, 99, 99);
+    padding: 10px;
+    box-shadow:  0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.Button{
+    
+    margin-left: 210px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+    transition: 1s;
+    margin-bottom: 200px;
+    
+}
+.Button a button{
+    width: 90px;
+    height: 30px;
+    border-radius: 2px;
+    align-items: center;
+}
+.Button  :hover{
+    background-color: #0B1629;
+    color: #fff;
+}
+

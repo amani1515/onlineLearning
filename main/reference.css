@@ -1,0 +1,47 @@
+.totalBox{
+    display: block;
+    width: 90%;
+    margin-top: 80px;
+    margin-left: 250px;
+    
+   
+}
+.singleBox{
+    display: inline-block;
+    height: 150px;
+    margin: 10px;
+    
+}
+.coverpage{
+    width: px;
+}
+.coverpage img{
+    display: inline-block;
+    width: 200px;
+    border: 10px;
+    margin-bottom: 10px;
+}
+.title{
+    height: 40px;
+    width: 60px;
+    display: inline-block;
+}
+button{
+    
+    width: 100px;
+    height: 28px;
+    
+    display: inline-block;
+}
+button a{
+    width: 40px;
+    text-decoration: none;
+    color: black;
+}
+button:hover{
+    background: black;
+    color: white;
+}
+button a:hover{
+    color: white;
+}
